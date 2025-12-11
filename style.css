@@ -42,25 +42,40 @@ body {
     font-weight: 400;
 }
 
-.apresentaca__links {
+.apresentacao__links {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.apresentacao__links__subtitulo {
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
 }
 
 .apresentaca__links__link {
-    background-color: #386173;
-    color: #6B260E;
-    font-size: 25px;
-    width: 260px;
+    /* background-color: #386173; */
+    display: flex;
+    justify-content: center;
+    border: 2px solid #386173;
+    width: 378px;
     text-align: center;
-    border-radius: 16px;
-    height: 40px;
-    padding: 21.5px 0;
-    text-decoration:none;
-    font-family: "Montserrat", sans-serif;
+    border-radius: 8px;
+    font-size: 25px;
     font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: #f6f6f6;
+    font-family: "Montserrat", sans-serif;
 }
 
-img {
+.img__perfil {
     width: 500px
+}
+
+.img__logo{
+
 }
