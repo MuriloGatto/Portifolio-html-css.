@@ -2,6 +2,8 @@
 
 Este é um projeto de uma página de portfólio pessoal desenvolvido como parte dos estudos no curso de HTML e CSS da Alura. A página foi construída utilizando HTML para a estrutura e CSS para a estilização, com foco em boas práticas e design responsivo.
 
+[imagem-tela-inicial](../assets/image.png)
+
 ## 🚀 Sobre o Projeto
 
 O objetivo deste projeto é criar uma página de apresentação (landing page) que funcione como um portfólio online. A página inclui:
