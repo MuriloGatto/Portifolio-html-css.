@@ -43,17 +43,18 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 40px;
 }
 
 .apresentaca__conteudo {
     width: 50%;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 82px;
 }
 
 .img__perfil {
-    width: 70%;
+    width: 50%;
     border-radius: 5%;
 }
 
@@ -115,4 +116,22 @@ body {
     text-align: center;
     font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
+}
+
+@media (max-width: 1200px){
+.cabecalho{
+    padding: 7%;
+}
+.cabecalho__menu{
+    justify-content: center;
+}
+   .apresentacao{
+    flex-direction: column-reverse;
+    padding: 5%;
+}
+
+.apresentaca__conteudo{
+    width: auto;
+}
+
 }
